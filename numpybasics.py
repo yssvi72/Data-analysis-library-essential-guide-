@@ -10,13 +10,12 @@ print(x)
 print("Test if none of the elements of the said array is zero:")
 print(np.all(x))
 
-# Reassigning array 'x' to a new array containing elements 0, 1, 2, and 3
-x = np.array([0, 1, 2, 3,4,5,6])
-
-print(" Resizable  array:")
-print(x)
-
-
+#Shape of an numpy array
+a = np.array([[1,2,3],[4,5,6]])
+print('Array :','\n',a)
+print('Shape :','\n',a.shape)
+print('Rows = ',a.shape[0])
+print('Columns = ',a.shape[1])
 
 
 
